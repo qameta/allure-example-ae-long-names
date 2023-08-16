@@ -58,6 +58,6 @@ jobs:
           printenv | grep ALLURE_
       - name: Get GITHUB_ environments
         run: | 
-          printenv | grep GITHUB_
+          printenv 
       - name: List results
         run: ls -la ${ALLURE_RESULTS}
