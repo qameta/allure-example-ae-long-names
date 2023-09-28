@@ -30,7 +30,7 @@ public class PullRequestsWebTest {
     @Test
     @TM4J("AE-T6")
     @Microservice("Billing")
-    @Story("Create new pull request")
+    @Story("A.Football")
     @Tags({@Tag("web"), @Tag("regress"), @Tag("smoke")})
     @JiraIssues({@JiraIssue("AE-3")})
     @DisplayName("Creating new pull request by authorized user")
