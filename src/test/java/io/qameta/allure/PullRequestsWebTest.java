@@ -43,6 +43,9 @@ public class PullRequestsWebTest {
     @Test
     @TM4J("AE-T7")
     @JiraIssue("AE-4")
+    @Example("this")
+    @Suite("A.Football")
+    @SportType("A.Football")
     @Microservice("Repository")
     @Story("Close existing pull request")
     @Tags({@Tag("web"), @Tag("regress")})
